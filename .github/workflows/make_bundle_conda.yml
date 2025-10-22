@@ -58,7 +58,7 @@ jobs:
           EOF
 
       - name: Setup Miniconda
-        uses: conda-incubator/setup-miniconda@v2
+        uses: conda-incubator/setup-miniconda@v3
         with:
           miniforge-version: latest
           environment-file: environment.yml
